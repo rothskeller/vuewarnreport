@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "strict": true,
+        "moduleResolution": "node",
+        "isolatedModules": true,
+        "allowSyntheticDefaultImports": true,
+    },
+    "include": [
+        "client/src/**/*.ts",
+        "client/src/**/*.vue"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+}
